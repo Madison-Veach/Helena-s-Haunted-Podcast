@@ -1,0 +1,128 @@
+$color-primary: red;
+$color-background: rgb(117, 4, 4);
+$color-black: rgba(0, 0, 0, 0.5);
+
+body {
+  background-image: url("https://i1.wp.com/sinautani.com/wp-content/uploads/2019/12/rui-silva-sj-wPZDQT057cE-unsplash-scaled.jpg?resize=683%2C1024&ssl=1");
+  background-attachment: scroll;
+  background-position: 100px 5px;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: $color-primary;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Homemade Apple", "cursive", "EB Garamond", "serif";
+  color: $black;
+  line-height: 1.1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.325rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h2 {
+  color: $color-primary;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 2rem;
+}
+h3 {
+  font-size: 2.25rem;
+  font-size: 1.75rem;
+  margin: 0 0 2rem;
+}
+h5 {
+  color: $color-primary;
+}
+.navbar {
+  color: $color-background;
+}
+.navbar-expand-md .navbar-collapse {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  background: rgb(117, 4, 4);
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  max-width: 500%;
+  height: auto;
+}
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, black, rgb(87, 19, 19), black);
+  color: white;
+}
+.site-footer {
+  background-color: rgb(117, 4, 4);
+}
+#sidebar img {
+  width: 60%;
+  box-shadow: 0 0 8px 8px black inset;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: black;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Pcast Player */
+.pcast-player {
+  .pcast-player-controls {
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    height: 42px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+

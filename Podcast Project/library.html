@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Helena's Haunted Inn</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/calendar.css" />
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <a class="navbar-brand" href="index.html"><img class="img-thumbnail" src="img/roomkey.jpg" height="500"
+                            width="200"></a>
+                </div>
+                <div class="col">
+                    <h1>Helena's Haunted Inn</h1>
+                    <h2>A Ghastly, Ghostly Fantasy Podcast</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md">
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="library.html">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-md-8 mx-auto">
+                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeCarousel" data-slide-to="1"></li>
+                        <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/roomkey.jpg" alt="Skeleton key in blood" />
+                            <div class="carousel-caption">
+                                <h3>Episode One: Helena's Haunted Inn</h3>
+                                <p class="d-none d-sm-block"> Helena has no idea how she came to wonder through a
+                                    freezing fog at midnight, but finding a bloody key cements her status as the new
+                                    owner of the haunted inn on beyond the black gates and up the hill.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/newgate.jpg" alt="Creepy gates" />
+                            <div class="carousel-caption">
+                                <h3>Episode Two: Beyond the Gates</h3>
+                                <p class="d-none d-sm-block"> There's a light that won't go out and it's anyone's guess
+                                    as to why.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/roses.jpg" alt="A dead flower" />
+                            <div class="carousel-caption">
+                                <h3>A Rose for Helena</h3>
+                                <p class="d-none d-sm-block"> Helena finds a jarring clue as to where, when, and who she
+                                    might be. </p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <i class="fa fa-pause"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h6>Episode 1: Helena's Haunted Inn</h6>
+                    <p>Summary</p>
+                    <ol>
+                        <div class="pcast-player">
+                            <div class="pcast-player-controls">
+                                <button class="pcast-play"><i class="fa fa-play"></i><span>Play</span></button>
+                                <button class="pcast-pause"><i class="fa fa-pause"></i><span>Pause</span></button>
+                                <button class="pcast-rewind"><i
+                                        class="fa fa-fast-backward"></i><span>Rewind</span></button>
+                                <span class="pcast-currenttime pcast-time">00:00</span>
+                                <progress class="pcast-progress" value="0"></progress>
+                                <span class="pcast-duration pcast-time">00:00</span>
+                                <button class="pcast-speed">1x</button>
+                                <button class="pcast-mute"><i
+                                        class="fa fa-volume-up"></i><span>Mute/Unmute</span></button>
+                            </div>
+                            <audio src="https://s3.amazonaws.com/ShopTalk/080_rapidfire_19.mp3"></audio>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>Episode 3: A Rose for Helena</h6>
+                        <p>Summary</p>
+                        <ol>
+                            <div class="pcast-player">
+                                <div class="pcast-player-controls">
+                                    <button class="pcast-play"><i class="fa fa-play"></i><span>Play</span></button>
+                                    <button class="pcast-pause"><i class="fa fa-pause"></i><span>Pause</span></button>
+                                    <button class="pcast-rewind"><i
+                                            class="fa fa-fast-backward"></i><span>Rewind</span></button>
+                                    <span class="pcast-currenttime pcast-time">00:00</span>
+                                    <progress class="pcast-progress" value="0"></progress>
+                                    <span class="pcast-duration pcast-time">00:00</span>
+                                    <button class="pcast-speed">1x</button>
+                                    <button class="pcast-mute"><i
+                                            class="fa fa-volume-up"></i><span>Mute/Unmute</span></button>
+                                </div>
+                                <audio src="https://s3.amazonaws.com/ShopTalk/080_rapidfire_19.mp3">
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h6>Episode 2: Beyond the Gates</h6>
+                    <p>Summary</p>
+                    <ol>
+                        <div class="pcast-player">
+                            <div class="pcast-player-controls">
+                                <button class="pcast-play"><i class="fa fa-play"></i><span>Play</span></button>
+                                <button class="pcast-pause"><i class="fa fa-pause"></i><span>Pause</span></button>
+                                <button class="pcast-rewind"><i
+                                        class="fa fa-fast-backward"></i><span>Rewind</span></button>
+                                <span class="pcast-currenttime pcast-time">00:00</span>
+                                <progress class="pcast-progress" value="0"></progress>
+                                <span class="pcast-duration pcast-time">00:00</span>
+                                <button class="pcast-speed">1x</button>
+                                <button class="pcast-mute"><i
+                                        class="fa fa-volume-up"></i><span>Mute/Unmute</span></button>
+                            </div>
+                            <audio src="https://s3.amazonaws.com/ShopTalk/080_rapidfire_19.mp3"></audio>
+                        </div>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i
+                            class="fa fa-phone fa-lg text-primary"></i>
+                        1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+                            class="fa fa-envelope-o fa-lg text-primary"></i> HelenasHauntedPodcast@haunted.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

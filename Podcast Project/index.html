@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Helena's Haunted Inn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/calendar.css" />
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <header class="jumbotron">
+    <div class="container">
+      <div class="row row-content">
+        <div class="col col-4 col-sm-3 col-md-2 align-self-center">
+          <a class="navbar-brand" href="index.html"><img class="img-thumbnail" src="img/roomkey.jpg" height="500"
+              width="200"></a>
+        </div>
+        <div class="col">
+          <h1>Helena's Haunted Inn</h1>
+          <h2>A Ghastly, Ghostly Fantasy Podcast</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-md">
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="library.html">Library</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <div id="sidebar">
+          <div>
+            <h3>Join Us for Live Events!</h3>
+            <img class="mb-2" src="https://rachelcorbett.com.au/wp-content/uploads/2018/07/Neon-podcast-logo.jpg"
+              height="400" alt="Live events.">
+          </div>
+          <hr class="mt-5 mb-5" />
+          <div>
+            <h3>Listen to Live Shows</h3>
+            <img class="mb-2"
+              src="data:image/jpeg;base64,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"
+              height="400" width="400" alt="In the process of recording.">
+          </div>
+          <hr class="mt-5 mb-5" />
+          <div>
+            <h3>Fan Art Creature Feature of the Week</h3>
+            <img class="mb-2" src="https://i.pinimg.com/originals/6f/45/0c/6f450c49c7fd6ab6be115c31c3aabfb5.jpg"
+              alt="Fanart creature feature.">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-sm-2 offset-1">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="library.html">Library</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm-5 text-center">
+          <h5>Social</h5>
+          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+          <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone fa-lg text-primary"></i>
+            1-206-555-1234</a><br />
+          <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+              class="fa fa-envelope-o fa-lg text-primary"></i> HelenasHauntedPodcast@haunted.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+
+</body>
+
+</html>
